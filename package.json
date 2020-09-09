@@ -4,6 +4,7 @@
   "description": "\"Browser based game\"",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/shayu78/defender-game-eslint/issues"
   },
-  "homepage": "https://github.com/shayu78/defender-game-eslint#readme"
+  "homepage": "https://github.com/shayu78/defender-game-eslint#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
 }
